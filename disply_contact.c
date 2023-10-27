@@ -13,10 +13,13 @@ void displayContacts( contact *start)
 	{
 		for(int i=0;i<numberofcontacts;i++)
 		{
+		printf("*****************************************\n");
+		printf("*****************************************\n");
 		printf("Name = %s\n",(start+i)->name);
 		printf("Phone = %d\n",(start+i)->phone_num);
 		printf("Email = %s\n",(start+i)->email);
 		printf("Alternate Phone = %d\n",(start+i)->alternate_phone_num);
+		printf("*****************************************\n");
 		printf("*****************************************\n");
 		}
 
